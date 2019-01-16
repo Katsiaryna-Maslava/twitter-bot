@@ -1,7 +1,14 @@
 const Twitter = require('twitter');
 const path = require('path');
 
-const config = require('./config')[0];
+// const config = require('./config')[0];
+
+const config = {
+	apiKey: 'A76JoDo4S0SGOwKSBPX2bpZYr',
+	apiSecretKey: 'VvdwoxeRK4xprTXDKP5IkEYYJ8Zvxjd2sS7twtdHIyrlrSrOWm',
+	accessToken: '1082702317177188353-aryAjGqCJjl73CQ7ke5AaUarQA79Fz',
+	accessTokenSecret: 'rKU9saibp0P43fIlwg3qPzXUCVIhPI2hZMLOjbdSab4Kc'
+};
 
 const app = new Twitter(config);
 
